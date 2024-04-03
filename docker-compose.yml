@@ -12,7 +12,7 @@ services:
     ports:
       - $POSTGRESDB_LOCAL_PORT:$POSTGRESDB_DOCKER_PORT
     volumes:
-      - db:./tables:/docker-entrypoint-initdb.d
+      - ./tables:/docker-entrypoint-initdb.d
   app:
     depends_on:
       - postgresdb
