@@ -1,0 +1,9 @@
+
+CREATE IF NOT EXISTS TABLE tutorials(
+          ID SERIAL PRIMARY KEY,
+          QR VARCHAR (31) NOT NULL,
+          STATUS VARCHAR (31) NOT NULL,
+          MAIL VARCHAR(127),
+          MOBILE BIGINT,
+          SCANTIME TIMESTAMP
+);
