@@ -24,21 +24,12 @@ If you need to stop and remove all containers, networks, and all images used by 
 docker compose down --rmi all
 ```
 
-For more detail, please visit:
-> [Docker Compose Node.js and Postgres example](https://www.bezkoder.com/docker-compose-nodejs-postgres/)
+**Enter psql:**
+```bash
+    psql ticketDB postgres
+```
 
-Related Posts:
-> [Node.js, Express & PostgreSQL: CRUD Rest Api example](https://www.bezkoder.com/node-express-sequelize-postgresql/)
-
-> [Node.js Express Pagination with PostgreSQL example](https://www.bezkoder.com/node-js-pagination-postgresql/)
-
-> [Import CSV data into PostgreSQL using Node.js](https://www.bezkoder.com/node-js-csv-postgresql/)
-
-> [Export PostgreSQL data to CSV file using Node.js](https://www.bezkoder.com/node-js-export-postgresql-csv-file/)
-
-> [Node.js JWT Authentication & Authorization with PostgreSQL example](https://www.bezkoder.com/node-js-jwt-authentication-postgresql/)
-
-Associations:
-> [Sequelize Associations: One-to-Many Relationship example](https://bezkoder.com/sequelize-associate-one-to-many/)
-
-> [Sequelize Associations: Many-to-Many Relationship example](https://bezkoder.com/sequelize-associate-many-to-many/)
+**Show all tables**
+```bash
+    \dt
+```
