@@ -16,7 +16,7 @@ services:
   app:
     depends_on:
       - postgresdb
-    build: ./bezkoder-app
+    build: ./ticketNode
     restart: unless-stopped
     env_file: ./.env
     ports:
